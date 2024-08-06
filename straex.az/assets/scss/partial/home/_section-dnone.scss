@@ -1,0 +1,48 @@
+.where-is{
+    .none-sec-source{
+      display: none;
+        
+    }
+    
+}
+
+
+@media (max-width: 960px){
+    .where-is{
+        .none-sec-source{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: #F5F5F5;
+    
+            .parcel-tittle{
+                margin-top: 20px;
+                font-weight: 300;
+                font-size: 18px;
+                color: rgb(23, 23, 23);
+            }
+            .parcel-button{
+                width: 100%;
+                padding: 10px 0;
+                margin-bottom: 30px;
+                background-color: #005AFE;
+                border: 0;
+                color: white;
+                font-size: 16px;
+
+                
+            }
+input{
+                    width: 100%;
+                    padding: 10px 0;
+                }
+
+        }
+        
+    }
+}

@@ -1,0 +1,114 @@
+.news-ppr {
+    .container {
+      .row {
+        .news-group {
+            width: 83.33%;
+          margin: 0 auto;
+          margin-bottom: 5%;
+  
+          .news-tittle {
+            display: flex;
+            justify-content: space-between;
+  
+            h2 {
+              font-size: 32px;
+              font-weight: 400;
+            }
+  
+            .d-btn-none {
+              display: flex;
+              justify-content: center;
+              gap: 5px;
+            }
+          }
+  
+          .news-boxes {
+            display: grid;
+            grid-template-columns: repeat(3, 33.33%);
+            column-gap: 1%;
+            margin-top: 2%;
+          }
+  
+          .wrong-box {
+            border: 1px solid rgba(0, 0, 0, 0.341);
+  
+            .tittle-img-n {
+              img {
+                width: 100%;
+              }
+            }
+  
+            .news-content {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              margin: 2% 1% 2% 2%;
+  
+              h6 {
+                font-size: 19px;
+                font-weight: 400;
+              }
+  
+              p {
+                font-size: 14px;
+                color: rgba(0, 0, 0, 0.516) !important;
+              }
+  
+              .date-n {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                margin-top: 2%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .news-ppr {
+      .container {
+        .row {
+          .news-group {
+            .news-boxes {
+              grid-template-columns: repeat(2, 50%);
+              margin: 0 auto;
+  
+              .d-none1 {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 960px) {
+    .news-ppr {
+      .container {
+        .row {
+          .news-group {
+            .news-tittle{
+                margin: 0 auto;
+                width: 50%;
+            }
+            .news-boxes {
+                width: 50%;
+              grid-template-columns:100%;
+              margin: 0 auto;
+  
+              .d-none1 {
+                display: none;
+              }
+              .d-none2{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

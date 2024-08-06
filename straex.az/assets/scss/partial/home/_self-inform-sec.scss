@@ -1,0 +1,110 @@
+.self-inform{
+padding-top: 5%;
+
+.row{
+    background-color: #F5F5F5;
+}
+    .two-girl{
+      
+
+        img{
+             width: 100%;
+            object-fit: cover;
+            object-position: center;
+             
+            
+        }
+    }
+    .information-left{
+       margin: 15% 0 0 10%;
+       
+
+        .self-tittle{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h2{
+             font-size: 32px;
+             font-weight: 400;
+            }
+
+            p{
+             color: rgb(140, 140, 140);
+             ;
+            }
+        }
+    }
+    .about-info{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        gap: 20px;
+        .info-wrapper{
+          display: flex;
+          gap: 20px;
+
+          .info-tittle{
+            display: flex;
+            z-index: 2;
+            flex-direction: column;
+            gap: 10px;
+            h6{
+                font-size: 20px;
+                color: rgb(89, 89, 89);
+                
+
+            }
+
+            p{
+             color: rgb(89, 89, 89);
+             
+            }
+          }
+        }
+    }
+}
+
+@media (max-width: 960px){
+    .self-inform{
+        .col-xl-12{
+            width: 100%;
+            background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://starex.az/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fassets%2Fimages%2Fabout-cover.eddb1a65fa33e740478afdab1d02e80d.jpg&w=1920&q=75);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+
+            
+            
+            .information-left{
+                margin:5% 0 8% 10% ;
+               .self-tittle{
+                h2{
+                    color: white;
+                    font-size: 20px;
+
+                }
+                p{
+                    color: white;
+                }
+               }
+            }
+        }
+        .col-d-none{
+            display: none;
+        }
+        .about-info{
+            .info-wrapper{
+                .info-tittle{
+                    h6{
+                        color: white;
+                    }
+                    p{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

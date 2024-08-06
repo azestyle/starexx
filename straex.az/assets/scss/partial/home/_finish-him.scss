@@ -1,0 +1,22 @@
+.finish{
+    background-color: #F5F5F5;
+    .container{
+        .row{
+            .finish-him{
+                margin: 2%;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px){
+    .finish{
+        .container{
+            .row{
+              .finish-him{
+                margin-left:30%;
+              }
+            }
+        }
+    }
+}

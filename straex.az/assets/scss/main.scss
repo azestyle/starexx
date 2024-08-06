@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import './utils/verables';
+@import './utils/mixin';
+@import './layout/header';
+@import './partial/home/section-slider';
+@import './partial/home/section-dnone';
+@import './partial/home/section-how-it';
+@import './partial/home/section-map';
+@import './partial/home/services-section';
+@import './partial/home/self-inform-sec';
+@import './partial/home/calculator-section';
+@import './partial/home/news-section';
+@import './partial/home/mobile-app';
+@import './partial/home/over-section';
+@import './partial/home/finish-him';
+@import './partial/home/services/s-header';
+@import './partial/home/services/s-footer/s-services';
+@import './partial/recipes/recipes';
+@import './partial/recipes/r-header';
+@import './partial/recipes/r-kg-transport';
+
+
+
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif ;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1550px;
+ 
+    
+}
+.row{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+

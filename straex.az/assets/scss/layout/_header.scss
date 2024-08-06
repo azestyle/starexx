@@ -1,0 +1,168 @@
+
+.transparents{
+    width: 100%;
+   position: relative;
+  position: absolute;
+   margin: 0 auto;
+}
+
+
+.header-top-group{
+    width: 100%;
+    margin: 0 50px;
+    display: flex;
+    margin-top: 10px;
+    .store-header{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+    .login-side{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        button{
+         background: transparent;   
+        border-top-width: 0;
+        border-bottom-width: 0;
+        border-left-width: 0;
+         border-right-color: rgb(112, 111, 111);
+        padding-right: 10px;
+        cursor: pointer;
+        color: rgb(109, 108, 108);
+        
+        
+        }
+        
+    }
+}
+
+.header-bottom-group{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 40px 50px;
+    .starex-menu{
+        display: flex;
+        justify-content: center;
+     ul{
+        display: flex;
+        gap: 35px;
+        list-style: none;
+        
+        li{
+            cursor: pointer;
+            color: white;
+        }
+    } 
+   
+    }
+    
+    .starex-button{
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+        button:nth-of-type(1){
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        color: white;
+        border: 0;
+        background-color: rgb(54, 54, 239);
+     }    
+     button:nth-of-type(2){
+        padding: 15px;
+        background: transparent;
+        cursor: pointer;
+        border-radius: 5px;
+        color: white;
+        border-color: white;
+     }    
+ 
+    
+   
+    }
+   .svg-before{
+    display: none;
+   }
+.svg-before-two{
+    display: none;
+   
+}
+}
+
+
+@media (max-width: 1205px){
+   .transparents{
+    
+    .row{
+        display: flex;
+        justify-content: center;
+
+        .starex-menu{
+    ul{
+        gap: 10px;
+    }
+ }
+ .col-sm-3{
+width: 25%;
+ }
+ .col-sm-2{
+width: 16.66%;
+ }
+ .col-sm-7{
+    width: 58.33%;
+ }
+    }
+   }
+ .col-sm-10{
+    width: 83.33%;
+    display: flex;
+ }
+ 
+}
+
+@media (max-width: 960px){
+    .transparents{
+        width: 100%;
+     background-color: white;
+     .container{
+       .d-none{
+        display: none;
+        .h-before{
+            background-color: white;
+        }
+       }
+     }
+     .logo-before{
+        width: 100%;
+        .svg-after{
+            display: none;
+           
+        }
+        
+       
+         .svg-before{
+              width: 100%;
+                display: flex;
+                gap: 20px;
+                
+            }
+
+            
+     }
+     .header-bottom-group{
+        
+            .col-sm-6{
+                width: 50%;
+            }
+        .svg-before-two{
+            display: flex;
+            gap: 30px;
+            justify-content: flex-end;
+        }
+     }
+    }
+ 
+}
